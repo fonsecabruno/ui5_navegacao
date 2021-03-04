@@ -23,7 +23,7 @@ sap.ui.define([
                 var oParameterosDaRota = {
             
                     id: oCategory.ID // $metadata
-            
+                               
                 }
             
                 oRouter.navTo("detalhe", oParameterosDaRota);
