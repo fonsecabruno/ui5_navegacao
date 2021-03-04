@@ -1,0 +1,61 @@
+<mvc:View 
+
+	controllerName="ovly.ui5navegacao.controller.NovaCategoria"
+
+	xmlns:core="sap.ui.core" 
+
+	xmlns:mvc="sap.ui.core.mvc"
+
+	xmlns="sap.m" 
+
+	xmlns:l="sap.ui.layout"
+
+	xmlns:f="sap.ui.layout.form">
+
+	<Page title="Nova Categoria" navButtonPress="onNavBack" showNavButton= "{= ${device>/system/phone} ? true : false }" >
+
+		<content>
+
+			<f:SimpleForm 
+
+			layout="ResponsiveGridLayout">
+
+			<f:content>
+
+				<Label text="ID" />
+
+				<Input value="{ID}" />
+
+				<Label text="Name" />
+
+				<Input value="{Name}" />
+
+			</f:content>
+
+		</f:SimpleForm>
+
+		</content>
+
+		<footer>
+
+			<Toolbar>
+
+				<content>
+
+					<ToolbarSpacer />
+
+					<Button icon="sap-icon://save" text="Salvar" type="Emphasized" press="onSave" />
+
+					<Button text="Cancelar" press="onCancel" />
+
+				</content>
+
+			</Toolbar>
+
+		</footer>
+
+	</Page>
+
+	
+
+</mvc:View>

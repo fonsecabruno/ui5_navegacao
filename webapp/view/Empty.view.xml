@@ -1,0 +1,11 @@
+<mvc:View
+    controllerName="ovly.ui5navegacao.controller.Empty"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+
+<Page title=""></Page>
+
+
+</mvc:View>
