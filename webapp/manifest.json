@@ -92,7 +92,8 @@
           "name": "detalhe",
           "pattern": "categoria/{id}",
           "target": [
-            "TargetCategoria"
+            "TargetCategoria",
+             "TargetProdutos"
           ]
         },
         {
@@ -122,6 +123,10 @@
         },
         "TargetEmpty": {
           "viewName": "Empty",
+          "controlAggregation": "detailPages"
+        },
+        "TargetProdutos": {
+          "viewName": "Produtos",
           "controlAggregation": "detailPages"
         }
       }

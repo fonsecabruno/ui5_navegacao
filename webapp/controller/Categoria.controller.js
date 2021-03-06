@@ -27,7 +27,11 @@ sap.ui.define([
                 }
             
                 oRouter.navTo("detalhe", oParameterosDaRota);
-            }
+            },
+             onAdd: function() {
+                let oRouter = this.getOwnerComponent().getRouter();
+                oRouter.navTo("novaCategoria");
+             }
 
 		});
 	});
