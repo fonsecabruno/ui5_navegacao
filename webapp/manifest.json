@@ -67,7 +67,11 @@
       },
       "": {
         "dataSource": "mainService",
-        "preload": true
+        "preload": true,
+        "settings": {
+          "disableHeadRequestForToken": true,
+					"defaultBindingMode": "TwoWay"
+        }
       }
     },
     "resources": {
